@@ -6,7 +6,7 @@ app = Flask(__name__)
 @app.route('/')
 def index():
     """Return homepage."""
-    return render_template('home.html')
+    return render_template('index.html')
 
 @app.route('/gallery')
 def gallery():
