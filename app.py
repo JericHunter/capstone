@@ -12,3 +12,8 @@ def index():
 def gallery():
     """Return homepage."""
     return render_template('gallery.html')
+
+@app.route('/about')
+def about():
+    """Return homepage."""
+    return render_template('about.html')
